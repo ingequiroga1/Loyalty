@@ -139,7 +139,7 @@ body{
 }
 
 .equipo--foto img{
-    width: 24rem;
+    width: 100%;
     height: 24rem;
     border-radius: 10px;
 }
