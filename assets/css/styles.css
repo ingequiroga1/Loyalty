@@ -126,6 +126,7 @@ body{
 .equipo--imagenes img{
     width: 11rem;
     height: 11rem;
+    max-width: 100%;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -140,6 +141,7 @@ body{
 
 .equipo--foto img{
     width: 100%;
+    max-width: 100%;
     height: 24rem;
     border-radius: 10px;
 }
@@ -345,6 +347,10 @@ body{
 
     .footer--imagen{
         flex: 0 0 20rem;
+    }
+
+    .footer--imagen img{
+        max-width: 100%;
     }
 
 }
