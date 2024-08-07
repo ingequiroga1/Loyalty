@@ -1,0 +1,95 @@
+/* Estilos Generales */
+
+.nav-movil{
+    display: none;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.encabezado{
+    text-align: center;
+    color: var(--blue);
+}
+
+
+/* Texto */
+
+.fw-500{
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.subtitle{
+    font-size: 18px;
+}
+
+/* Padding */
+.px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Margins */
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-2{
+    margin: 2rem;
+}
+
+.m-3{
+    margin: 3rem;
+}
+
+.mt-1{
+    margin-top: 1rem;    
+}
+
+.mt-3{
+    margin-top: 3rem;    
+}
+
+.mt-5{
+    margin-top: 5rem;    
+}
+/* margin bottom */
+
+.mb-1{
+    margin-bottom: 1rem;    
+}
+
+.mb-3{
+    margin-bottom: 3rem;    
+}
+
+
+.mb-5{
+    margin-bottom: 5rem;    
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}

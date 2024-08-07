@@ -1,0 +1,58 @@
+.quienes{
+    display: flex;
+    flex-direction: column; /* Por defecto, para pantallas pequeñas */
+    min-height: 900px;
+}
+
+.quienes-left{
+    flex: 1;
+    /* background: url("../images/quienes_70.jpg")fixed no-repeat; */
+    background-image: url("../images/quienes_70.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.quienes-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--gray);
+    box-sizing: border-box;
+}
+
+.quienes-texto{
+    text-align: center;
+}
+
+.quienes-texto h2{
+    font-size: 3rem;
+    color: var(--white);
+}
+
+
+.quienes-right p{
+    max-width: 600px;
+    margin: 1rem;
+    line-height: 1.5rem;
+    color: var(--white);
+}
+
+
+
+@media (min-width: 768px){
+    .quienes{
+        flex-direction: row;  /* Para pantallas medianas y grandes */
+        min-height: 100vh;
+    }
+
+    .quienes-left{
+        min-height: 500px;
+    }
+}
+
+
+

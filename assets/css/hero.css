@@ -1,0 +1,45 @@
+.hero{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(transparent,#24334D),url("../images/hero_50.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: 0% 25%;
+}
+
+.hero-container{
+    min-height: 720px;
+    display: flex;
+    align-items: center;    /* Centra verticalmente */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.hero .btn-primary{
+    padding: 20px 40px;
+}
+.hero--texto{
+    padding-inline-start: 9rem;
+    /* padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px; */
+   
+}
+
+.hero--texto-title{
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.hero--texto-subtitle{
+    font-weight: 400;
+    max-width: 70%;
+    color: var(--white);
+}
+
+
+
+
+
+
