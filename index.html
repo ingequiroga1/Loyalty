@@ -6,18 +6,19 @@
     <title>Loyalty</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/jquery.min.js"></script>
 </head>
 <body>
     <header>
             <nav class="nav px-6 mx-auto">
                 <ul class="navbar">
                     <li>
-                        <a href="#" class="nav-link nav-link-ltr">Home</a>
+                        <a href="#home" class="nav-link nav-link-ltr">Home</a>
                     </li>
-                    <li><a href="#" class="nav-link nav-link-ltr"> Quienes Somos</a></li>
+                    <li><a href="#quienes" class="nav-link nav-link-ltr"> Quienes Somos</a></li>
                     <li><img class="logo" src="assets/images/logoloyalty.png" alt="Logo"></li>
-                    <li><a href="#" class="nav-link nav-link-ltr">Servicios</a></li>
-                    <li><a href="#" class="nav-link nav-link-ltr">Contacto</a></li>
+                    <li><a href="#servicios" class="nav-link nav-link-ltr">Servicios</a></li>
+                    <li><a href="#contacto" class="nav-link nav-link-ltr">Contacto</a></li>
                 </ul>
             </nav>
             <div class="nav-movil">
@@ -26,25 +27,25 @@
                 <div id="navmovilnav" class="nav-movil--nav">
                     <button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
                     <ul class="nav-movil--nav-list">    
-                      <li><a href="#" class="nav-link nav-link-ltr">Home</a></li>
-                      <li><a href="#" class="nav-link nav-link-ltr">Quienes Somos</a></li>
-                      <li><a href="#" class="nav-link nav-link-ltr">Servicios</a></li>
-                      <li><a href="#" class="nav-link nav-link-ltr">Contacto</a></li>
+                      <li><a href="#home" class="nav-link nav-link-ltr">Home</a></li>
+                      <li><a href="#quienes" class="nav-link nav-link-ltr">Quienes Somos</a></li>
+                      <li><a href="#servicios" class="nav-link nav-link-ltr">Servicios</a></li>
+                      <li><a href="#contacto" class="nav-link nav-link-ltr">Contacto</a></li>
                     </ul>
                 </div>
             </div>
     </header>
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="hero-container mx-auto">
             <div class="hero--texto">
-                <p class="hero--texto-title">Construyendo Sueños,<br>creando futuro</p>
+                <p class="hero--texto-title">Construyendo sueños,<br>creando futuro</p>
                 <p class="hero--texto-subtitle subtitle mt-1">Tu socio confiable en proyectos de construcción 
                     residenciales y comerciales</p>
-                <button class="btn-primary mt-1">Agendar Cita</button>                     
+                <button id="btnHero" class="btn-primary mt-1">Agendar Cita</button>                     
             </div>
         </div>
     </section>
-    <section class="servicios">
+    <section id="servicios" class="servicios">
         <div class="encabezado mt-5 mb-3">
             <p class="title">Nuestros Servicios</p>
             <p class="subtitle">Años de Experiencia</p>
@@ -102,7 +103,7 @@
               </div>
         </div>
     </section>
-    <section class="quienes">
+    <section id="quienes" class="quienes">
         <div class="quienes-left"></div>
         <div class="quienes-right">
             <div class="quienes-texto">
@@ -123,10 +124,10 @@ ofreciendo soluciones innovadoras y sostenibles.
                 inversión inmobiliaria</h3>
                 <p class="text-center">Invierte con una de las desarrolladoras de vivienda más <br>
                     importantes del país en términos de ingresos.</p>
-            <button class="btn-secundary mt-3">Más Información</button>
+            <button id="btnCall" class="btn-secundary mt-3">Más Información</button>
         </div>
     </section>
-    <section class="equipo">
+    <section id="equipo" class="equipo">
         <div class="equipo--imagenes">
             <img id="1" class="thumbnail" src="assets/images/servicios/1.jpg" alt="imagen 1">
             <img id="2"  class="thumbnail"  src="assets/images/servicios/2.jpg" alt="imagen 2">
@@ -139,7 +140,7 @@ ofreciendo soluciones innovadoras y sostenibles.
         <div id="equipoDatos" class="equipo--datos"> 
         </div>
     </section>
-    <section class="contacto">
+    <section id="contacto" class="contacto">
       <div class="contacto--cabecera">
         <p class="subtitle bold m-2">Contacto</p>
       </div>
@@ -179,10 +180,10 @@ ofreciendo soluciones innovadoras y sostenibles.
       <div class="footer--container">
         <div class="footer--menu">
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">QUIENES SOMOS</a></li>
-            <li><a href="#">SERVICIOS</a></li>
-            <li><a href="#">CONTACTO</a></li>
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#quienes">QUIENES SOMOS</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
             <li><a href="#">AVISO DE PRIVACIDAD</a></li>
           </ul>
         </div>
@@ -202,6 +203,7 @@ ofreciendo soluciones innovadoras y sostenibles.
         <p>Ⓒ 2025 Loyalty. Todos los derechos reservados.</p>
       </div>
     </footer>
+    <script src="assets/js/scroll.js"></script>
     <script src="assets/js/main.js"></script>
     
 </body>
